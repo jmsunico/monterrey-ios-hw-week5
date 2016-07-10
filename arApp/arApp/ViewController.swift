@@ -25,7 +25,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
 			imagePicker.sourceType = UIImagePickerControllerSourceType.Camera
 			imagePicker.showsCameraControls = false
 			imagePicker.cameraOverlayView = arOverlay.view
-			self.presentViewController(imagePicker, animated: true, completion: nil)
+			self.presentViewController(imagePicker, animated: true, completion: nil	)
 		}
 		
 	}
